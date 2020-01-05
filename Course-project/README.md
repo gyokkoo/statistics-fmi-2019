@@ -1,4 +1,4 @@
-##Курсов проект по R - Анализ на данни
+## Курсов проект по R - Анализ на данни
 
 ###### Гьокан Неждетов Сюлейманов ФН 62117, СИ 3-ти курс
 
@@ -125,7 +125,7 @@ ggplot(food_data,aes(x=food_data$transFat, fill=food_data$restaurant)) + geom_hi
   ggplot(food_data, aes(x=percentage$protein, y = food_data$calories, fill = food_data$restaurant)) + geom_boxplot()
   ``````
 
-  ![Protein_data](./images/Protein_data.png)
+  ![Protein_data](./images/protein_data.png)
 
 Най-богатите на % протеин бургери са предлагани от *Wednys, McDonalds, Dairy Queen* с над 20%.
 
